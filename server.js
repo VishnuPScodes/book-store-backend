@@ -31,7 +31,7 @@ app.use('/shortstory',ShortstoryRouter)
 app.use('/classics',ClassicsRouter)
 
 app.use('/',RomanceRouter)
-const CONNECTION_URL=process.env.DATABASE
+const CONNECTION_URL=process.env.DATABASE1
 const port=process.env.PORT ||4000
 mongoose.connect(CONNECTION_URL,{ useNewUrlParser:true ,useUnifiedTopology:true}).then(()=>{
     app.listen(port,()=>{
