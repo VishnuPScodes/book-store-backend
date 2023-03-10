@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js -p $PORT"
+    "start": "node server.js -p $PORT"
   },
   "keywords": [],
   "author": "",
